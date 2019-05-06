@@ -1,4 +1,4 @@
-# Why TypeScript
+# Prečo TypeScript?
 There are two main goals of TypeScript:
 * Provide an *optional type system* for JavaScript.
 * Provide planned features from future JavaScript editions to current JavaScript engines
