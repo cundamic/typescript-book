@@ -1,27 +1,25 @@
-* [Getting Started with TypeScript](#getting-started-with-typescript)
-* [TypeScript Version](#typescript-version)
+* [Začíname s TypeScriptom](#getting-started-with-typescript)
+* [Verzia TypeScriptu](#typescript-version)
 
-# Getting Started With TypeScript
+# Začíname s TypeScriptom
 
-TypeScript compiles into JavaScript. JavaScript is what you are actually going to execute (either in the browser or on the server). So you are going to need the following:
+TypeScript sa kompiluje do JavaScriptu. JavaScript je to, čo sa v skutočnosti vykonáva (buď v prehliadači alebo na strane servera). Budeš potrtebovať:
 
-* TypeScript compiler (OSS available [in source](https://github.com/Microsoft/TypeScript/) and on [NPM](https://www.npmjs.com/package/typescript))
-* A TypeScript editor (you can use notepad if you want but I use [vscode 🌹](https://code.visualstudio.com/) with an [extension I wrote](https://marketplace.visualstudio.com/items?itemName=basarat.god). Also [lots of other IDES support it as well]( https://github.com/Microsoft/TypeScript/wiki/TypeScript-Editor-Support))
+* kompiler TypeScriptu (na [githube](https://github.com/Microsoft/TypeScript/) a na [NPM](https://www.npmjs.com/package/typescript))
+* editor TypeScriptu  (môžeš použiť poznámkový blok [vscode 🌹](https://code.visualstudio.com/) s [rozšírením](https://marketplace.visualstudio.com/items?itemName=basarat.god). [Podpora pre iné IDE]( https://github.com/Microsoft/TypeScript/wiki/TypeScript-Editor-Support))
 
 
-## TypeScript Version
+## Verzia TypeScriptu 
 
-Instead of using the *stable* TypeScript compiler we will be presenting a lot of new stuff in this book that may not be associated with a version number yet. I generally recommend people to use the nightly version because **the compiler test suite only catches more bugs over time**.
+Odporúčam používať najnovšiu (nightly) verziu.
 
-You can install it on the command line as
+Inštalácia cez terminál:
 
 ```
 npm install -g typescript@next
 ```
 
-And now the command line `tsc` will be the latest and greatest. Various IDEs support it too, e.g.
-
-* You can ask vscode to use this version by creating `.vscode/settings.json` with the following contents:
+* Ak chceš, aby  vscode používalo túto verziu tak pridaj do  `.vscode/settings.json`nasledujúci obsah:
 
 ```json
 {
