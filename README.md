@@ -1,10 +1,10 @@
 TypeScript - hlboký ponor
 =======
 
- Odkazy: 
- *[Stack Overflow](http://stackoverflow.com/tags/typescript/topusers)
- *[DefinitelyTyped](https://github.com/DefinitelyTyped/)
- *[TypeScript komunita](https://github.com/TypeStrong/).
+ ## Odkazy: 
+ * [Stack Overflow](http://stackoverflow.com/tags/typescript/topusers)
+ * [DefinitelyTyped](https://github.com/DefinitelyTyped/)
+ * [TypeScript komunita](https://github.com/TypeStrong/)
 
 
 
