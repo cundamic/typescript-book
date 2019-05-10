@@ -1,5 +1,8 @@
 ---
-description: 'O TypeScripte, o jednom explodujúcom jazyku, ktorý vládne všetkým'
+description: >-
+  O TypeScripte, o jednom explodujúcom jazyku, ktorý vládne všetkým,  o
+  JavaScripte, ktorý môže buď milovať alebo nenávidieť, nič medzi, o večnej
+  vojne medzi dynamickými a statickými programátormi
 ---
 
 # O čom to bude
