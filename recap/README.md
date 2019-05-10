@@ -1,8 +1,8 @@
 # JavaScript
 
-There were \(and will continue to be\) a lot of competitors in _Some syntax_ to _JavaScript_ compilers. TypeScript is different from them in that _Your JavaScript is TypeScript_. Here's a diagram:
+Existuje a bude existovať veľa súperiacich kompilerov z nejakej syntaxe do  _JavaScriptu ._ TypeScript sa od nich líši tým, že  _JavaScript je TypeScript_. 
 
-![JavaScript is TypeScript](https://raw.githubusercontent.com/basarat/typescript-book/master/images/venn.png)
+![JavaScript je TypeScript](https://raw.githubusercontent.com/basarat/typescript-book/master/images/venn.png)
 
 However, it does mean that _you need to learn JavaScript_ \(the good news is _you **only** need to learn JavaScript_\). TypeScript is just standardizing all the ways you provide _good documentation_ on JavaScript.
 
