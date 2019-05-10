@@ -18,7 +18,7 @@ description: >-
 
 ## História:
 
-* **JavaScript**, je [skriptovací](https://sk.wikipedia.org/wiki/Skriptovac%C3%AD_jazyk) [programovací jazyk](https://sk.wikipedia.org/wiki/Programovac%C3%AD_jazyk). Jazyk je používaný najmä pri tvorbe [webových stránok](https://sk.wikipedia.org/wiki/Web_site). Pôvodne ho vyvíjal [Brendan Eich](https://youtu.be/zlcnOr81lPc?t=9) zo spoločnosti [Netscape Communications](https://sk.wikipedia.org/w/index.php?title=Netscape_Communications&action=edit&redlink=1) pod názvom Mocha, neskôr pod menom **LiveScript**. Pred uvedením na verejnosť v roku 1995 bol premenovaný na „JavaScript“, najmä pre vtedajšiu popularitu jazyka [Java](https://sk.wikipedia.org/wiki/Java_%28programovac%C3%AD_jazyk%29). Aj na základe jeho názvu je rozšírený názor, že [syntax](https://sk.wikipedia.org/wiki/Syntax) Javascriptu sa podobá Jave, v skutočnosti bol jeho tvorca najviac inšpirovaný jazykom [Self](https://sk.wikipedia.org/w/index.php?title=Self_%28programovac%C3%AD_jazyk%29&action=edit&redlink=1).
+* **JavaScript**, je [skriptovací](https://sk.wikipedia.org/wiki/Skriptovac%C3%AD_jazyk) [programovací jazyk](https://sk.wikipedia.org/wiki/Programovac%C3%AD_jazyk). Jazyk je používaný najmä pri tvorbe webových stránok. Pôvodne ho vyvíjal [Brendan Eich](https://youtu.be/zlcnOr81lPc?t=9) zo spoločnosti Netscape Communications pod názvom Mocha, neskôr pod menom **LiveScript**. Pred uvedením na verejnosť v roku 1995 bol premenovaný na „JavaScript“, najmä pre vtedajšiu popularitu jazyka Java. Aj na základe jeho názvu je rozšírený názor, že [syntax](https://sk.wikipedia.org/wiki/Syntax) Javascriptu sa podobá Jave, v skutočnosti bol jeho tvorca najviac inšpirovaný jazykom Self.
 * Revolúcia začína v roku 2009: [Ryan Dahl: Original Node.js presentation](https://www.youtube.com/watch?v=ztspvPYybIY)🔫 
 * Pokračuje rokom 2010**: Miško Hevery** & Vojta Jína: [**Angular.js** workshop - DevFest Praha 2012](https://youtu.be/mrtCx18yKlw)
 * [framework vs library](https://medium.com/datafire-io/libraries-vs-frameworks-626cdde799a7)
@@ -27,7 +27,11 @@ description: >-
 * Rok 2015: šialená [ES6](https://www.w3schools.com/js/js_versions.asp)
 * Rok 2015:  [VS Code](https://code.visualstudio.com/)🍒 
 * Rok 2016: [Angular 2](https://en.wikipedia.org/wiki/Angular_%28web_framework%29) s Typescriptom
-* Rok 2018: Deno - [10 Things I Regret About Node.js - Ryan Dahl - JSConf EU 2018](https://youtu.be/M3BM9TB-8yA?t=757)
+* Rok 2018: Deno \([V8](https://hackernoon.com/javascript-v8-engine-explained-3f940148d4ef)  a Rust\) - [10 Things I Regret About Node.js - Ryan Dahl - JSConf EU 2018](https://youtu.be/M3BM9TB-8yA?t=757)
+* Čo je to [halda](https://cs.wikipedia.org/wiki/Dynamick%C3%A1_alokace_pam%C4%9Bti)?
+* [Nálepkový súboj](https://stackoverflow.com/)
+* [Hviezdičkový súboj](https://github.com/)
+* Git - distribuovaný systém na správu verzií, ktorý vytvoril Linus Torvalds.  Zväčša je veľmi dobré, ak história úložiska obsahuje postupnosť všetkých krokov, ktorými sa dostaneme k aktuálnemu stavu. Až pokiaľ tam niekto nevloží pár iso obrazov \(**ISO obraz** alebo **obraz disku** je archívny súbor obsahujúci digitálnu kópiu dát na optickom disku\) a v nasledujúcom commite ich nezmaže.. \([esej](http://www2.fiit.stuba.sk/~bielik/courses/msi-slov/kniha/2012/Resources/Essays/Essay_52.pdf)\)
 
 
 
