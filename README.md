@@ -1,7 +1,7 @@
 ---
 description: >-
   O TypeScripte, o jednom explodujúcom jazyku, ktorý vládne všetkým,  o
-  JavaScripte, ktorý môže buď milovať alebo nenávidieť, nič medzi, o večnej
+  JavaScripte, ktorý môžeš buď milovať alebo nenávidieť, nič medzi, o večnej
   vojne medzi dynamickými a statickými programátormi
 ---
 
