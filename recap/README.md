@@ -16,13 +16,13 @@ TypeScript Ťa ochráni pred tým, čo v JavaScripte nefunguje:
 ```typescript
 [] + []; // JavaScript Ti dá "" (čo je nezmysel), v TypeScripte je to chyba
 
-//
+// 
 // aj iné nezmysly v JavaScripte nedávajú chybu počas behu, čím sa sťažuje hľadanie chýb
 // TypeScript však vyvolá chybu už počas kompilácie 
 //
 {} + []; // JS : 0, TS chyba
-[] + {}; // JS : "[object Object]", TS Error
-{} + {}; // JS : NaN or [object Object][object Object] depending upon browser, TS Error
+[] + {}; // JS : "[object Object]", TS chyba
+{} + {}; // JS : NaN alebo [object Object][object Object] v závislosti od prehliadača, TS chyba
 "hello" - 1; // JS : NaN, TS Error
 
 function add(a,b) {
@@ -31,7 +31,11 @@ function add(a,b) {
 }
 ```
 
-Essentially TypeScript is linting JavaScript. Just doing a better job at it than other linters that don't have _type information_.
+
+
+[Vysvetlenie](https://stackoverflow.com/questions/9032856/what-is-the-explanation-for-these-bizarre-javascript-behaviours-mentioned-in-the) 
+
+ssentially TypeScript is linting JavaScript. Just doing a better job at it than other linters that don't have _type information_.
 
 ## You still need to learn JavaScript
 
