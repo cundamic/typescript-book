@@ -35,11 +35,7 @@ function add(a,b) {
 
 [Vysvetlenie](https://stackoverflow.com/questions/9032856/what-is-the-explanation-for-these-bizarre-javascript-behaviours-mentioned-in-the) 
 
-ssentially TypeScript is linting JavaScript. Just doing a better job at it than other linters that don't have _type information_.
+TypeScript je [ linting](https://it-slovnik.cz/pojem/linting) pre JavaScript, ktorý vykonáva svoju prácu lepšie, pretože má informáciu o type. 
 
-## You still need to learn JavaScript
-
-That said TypeScript is very pragmatic about the fact that _you do write JavaScript_ so there are some things about JavaScript that you still need to know in order to not be caught off-guard. Let's discuss them next.
-
-> Note: TypeScript is a superset of JavaScript. Just with documentation that can actually be used by compilers / IDEs ;\)
+## 
 
