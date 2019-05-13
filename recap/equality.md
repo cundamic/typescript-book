@@ -1,13 +1,13 @@
 # Rovnosť
 
-Treba  mať na pamäti rozdiel medzi `==` a `===`.  JavaScript sa snaží pomáhať programátorovi tak, že `==` používa pretypovanie  \(type  [coercion](https://beta.chesstempo.com/chess-tactics/)\) , napríklad zmení reťazec na číslo \(ak sa to dá\) so that you can compare with a number as shown below:
+Treba  mať na pamäti rozdiel medzi `==` a `===`.  JavaScript sa snaží pomáhať programátorovi tak, že `==` používa pretypovanie  \(type  [coercion](https://beta.chesstempo.com/chess-tactics/)\) , napríklad zmení reťazec na číslo \(ak sa to dá\) a tak ho môžeš porovnať s číslom:
 
 ```javascript
-console.log(5 == "5"); // true   , TS Error
-console.log(5 === "5"); // false , TS Error
+console.log(5 == "5"); // true   , TS chyba
+console.log(5 === "5"); // false , TS chyba
 ```
 
-However, the choices JavaScript makes are not always ideal. For example, in the below example the first statement is false because `""` and `"0"` are both strings and are clearly not equal. However, in the second case both `0` and the empty string \(`""`\) are falsy \(i.e. behave like `false`\) and are therefore equal with respect to `==`. Both statements are false when you use `===`.
+Toto pretypovanie nie je vždy ideálne. Napríklad pri porovaní  `""` a `"0"`  dostaneme `false,`pretože  sa reťazce nerovnajú. V druhom prípade  `0`a prázdny reťazec   \(`""`\)  sú považované za nepravdivé \(falsy, t.j. správajú sa ako`false`\) a  preto sú pri`==` rovnaké  a výsledkom je `true`  . Ak použijeme `===`  tak dostaneme `false`.
 
 ```javascript
 console.log("" == "0"); // false
@@ -17,22 +17,22 @@ console.log("" === "0"); // false
 console.log(0 === ""); // false
 ```
 
-> Note that `string == number` and `string === number` are both compile time errors in TypeScript, so you don't normally need to worry about this.
+> `string == number` and `string === number` sú v TypeScripte kompilačné chyby.
 
-Similar to `==` vs. `===`, there is `!=` vs. `!==`
+Podobne ako `==` vs. `===` sa správa aj `!=` vs. `!==`
 
-So ProTip: Always use `===` and `!==` except for null checks, which we cover later.
+Tip: Vždy používaj `===` a `!==`  s výnimkou pre  null kontrolu.
 
-## Structural Equality
+## Štrukturálna rovnosť
 
-If you want to compare two objects for structural equality `==`/`===` are _**not**_ sufficient. e.g.
+Na zistenie štrukturálnej rovnosti dvoch objektov nám nestačí `==`/`===`
 
 ```javascript
 console.log({a:123} == {a:123}); // False
 console.log({a:123} === {a:123}); // False
 ```
 
-To do such checks use the [deep-equal](https://www.npmjs.com/package/deep-equal) npm package e.g.
+Pomôže nám  npm balíček [deep-equal](https://www.npmjs.com/package/deep-equal).
 
 ```javascript
 import * as deepEqual from "deep-equal";
@@ -40,7 +40,7 @@ import * as deepEqual from "deep-equal";
 console.log(deepEqual({a:123},{a:123})); // True
 ```
 
-However, quite commonly you don't need deep checks and all you really need is to check by some `id` e.g.
+Hľadanie daného  `id` :
 
 ```typescript
 type IdDisplay = {
