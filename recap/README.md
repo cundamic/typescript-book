@@ -7,23 +7,20 @@ Existuje a bude existovať veľa súperiacich kompilerov z nejakej syntaxe do  _
 Znamená to, že sa budeš musieť naučiť _JavaScript_. TypeScript Ti vlastne poskytuje  dokumentáciu.
 
 * Samotná nová syntax nepomáha s chybami  \(pozerám na Teba CoffeeScript\).
-* Creating a new language abstracts you too far from your runtimes, communities \(looking at you Dart\).
-
-TypeScript is just JavaScript with docs.
+* Vytvorenie nového jazyka \(pozerám na Teba Dart\).
 
 ## Making JavaScript Better
 
-TypeScript will try to protect you from portions of JavaScript that never worked \(so you don't need to remember this stuff\):
+TypeScript Ťa ochráni pred tým, čo v JavaScripte nefunguje:
 
 ```typescript
-[] + []; // JavaScript will give you "" (which makes little sense), TypeScript will error
+[] + []; // JavaScript Ti dá "" (čo je nezmysel), v TypeScripte je to chyba
 
 //
-// other things that are nonsensical in JavaScript
-// - don't give a runtime error (making debugging hard)
-// - but TypeScript will give a compile time error (making debugging unnecessary)
+// aj iné nezmysly v JavaScripte nedávajú chybu počas behu, čím sa sťažuje hľadanie chýb
+// TypeScript však vyvolá chybu už počas kompilácie 
 //
-{} + []; // JS : 0, TS Error
+{} + []; // JS : 0, TS chyba
 [] + {}; // JS : "[object Object]", TS Error
 {} + {}; // JS : NaN or [object Object][object Object] depending upon browser, TS Error
 "hello" - 1; // JS : NaN, TS Error
