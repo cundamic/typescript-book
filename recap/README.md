@@ -23,11 +23,11 @@ TypeScript Ťa ochráni pred tým, čo v JavaScripte nefunguje:
 {} + []; // JS : 0, TS chyba
 [] + {}; // JS : "[object Object]", TS chyba
 {} + {}; // JS : NaN alebo [object Object][object Object] v závislosti od prehliadača, TS chyba
-"hello" - 1; // JS : NaN, TS Error
+"ahoj" - 1; // JS : NaN, TS chyba
 
 function add(a,b) {
   return
-    a + b; // JS : undefined, TS Error 'unreachable code detected'
+    a + b; // JS : undefined, TS chyba 'unreachable code detected'
 }
 ```
 
