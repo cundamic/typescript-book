@@ -4,9 +4,9 @@ Existuje a bude existovať veľa súperiacich kompilerov z nejakej syntaxe do  _
 
 ![JavaScript je TypeScript](https://raw.githubusercontent.com/basarat/typescript-book/master/images/venn.png)
 
-However, it does mean that _you need to learn JavaScript_ \(the good news is _you **only** need to learn JavaScript_\). TypeScript is just standardizing all the ways you provide _good documentation_ on JavaScript.
+Znamená to, že sa budeš musieť naučiť _JavaScript_. TypeScript Ti vlastne poskytuje  dokumentáciu.
 
-* Just giving you a new syntax doesn't help fix bugs \(looking at you CoffeeScript\).
+* Samotná nová syntax nepomáha s chybami  \(pozerám na Teba CoffeeScript\).
 * Creating a new language abstracts you too far from your runtimes, communities \(looking at you Dart\).
 
 TypeScript is just JavaScript with docs.
