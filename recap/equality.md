@@ -1,8 +1,6 @@
 # Rovnosť
 
-## Equality
-
-One thing to be careful about in JavaScript is the difference between `==` and `===`. As JavaScript tries to be resilient against programming errors `==` tries to do type coercion between two variables e.g. converts a string to a number so that you can compare with a number as shown below:
+Treba  mať na pamäti rozdiel medzi `==` a `===`.  JavaScript sa snaží pomáhať programátorovi tak, že `==` používa pretypovanie  \(type  [coercion](https://beta.chesstempo.com/chess-tactics/)\) , napríklad zmení reťazec na číslo \(ak sa to dá\) so that you can compare with a number as shown below:
 
 ```javascript
 console.log(5 == "5"); // true   , TS Error
